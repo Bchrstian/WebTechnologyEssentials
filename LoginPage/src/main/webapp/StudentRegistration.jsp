@@ -134,12 +134,14 @@
       <div class="top">
         <header>Forgot Password</header>
       </div>
+      <form action="ForgotPasswordServlet" method="post">
       <div class="input-box">
         <input
           type="text"
           class="input-field"
           id="forgetEmailInput"
           placeholder="Email"
+          name="forgetEmailInput"
         />
         <i class="bx bx-envelope"></i>
       </div>
@@ -149,6 +151,7 @@
           class="input-field"
           id="newPasswordInput"
           placeholder="New Password"
+          name="newPasswordInput"
         />
         <i class="bx bx-lock-alt"></i>
       </div>
@@ -160,6 +163,7 @@
           onclick="sendVerificationCode()"
         />
       </div>
+       </form>
     </div>
 
     <!-- Verification Code Page -->
