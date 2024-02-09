@@ -9,6 +9,17 @@
         <welcome-file>StudentRegistration.jsp</welcome-file>
     </welcome-file-list>
 
+    <!-- Servlet Configuration -->
+    <servlet>
+        <servlet-name>registerServlet</servlet-name>
+        <servlet-class>RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>registerServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
     <!-- Other configurations, servlet mappings, etc. go here -->
 
 </web-app>

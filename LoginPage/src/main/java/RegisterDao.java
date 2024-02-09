@@ -7,6 +7,7 @@ public class RegisterDao {
     String url = "jdbc:postgresql://localhost:5432/registrationdb";
     String user = "postgres";
     String password = "A$aprocky08";
+    String driver = "org.postgresql.Driver"; 
 
     public boolean insert(Member member) {
         try {
