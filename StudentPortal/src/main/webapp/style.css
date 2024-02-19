@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.welcome-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.welcome-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-page p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change-language {
+  cursor: pointer;
+  font-size: 14px;
+  color: #007bff;
+}
+
+/* Add more styling as needed */
+/* Your existing CSS styles */
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+.input-box i {
+  position: relative;
+  top: -35px;
+  left: 17px;
+  color: #fff;
+}
+
+/* Your existing CSS styles */
+
+/* Your existing CSS styles */
+
+.sign-up-content {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 500px; /* Set a maximum width for responsiveness */
+  margin: auto;
+  padding: 20px;
+}
+
+.sign-up-content form {
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.sign-up-content label {
+  margin-bottom: 5px;
+}
+
+.sign-up-content .input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-content input[type="submit"],
+.sign-up-content input[type="file"] {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(
+    52,
+    152,
+    219,
+    0.8
+  ); /* Green color, you can change it */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-up-content input[type="submit"]:hover,
+.sign-up-content input[type="file"]:hover {
+  background-color: #007bff; /* Darker green color on hover, you can change it */
+}
+
+/* Additional styles to ensure the content is visible without scrolling */
+
+.input-field {
+  font-size: 15px;
+  background: rgba(52, 152, 219, 0.8); /* Blue background color */
+  color: #fff; /* White text color */
+  height: 50px;
+  width: 100%;
+  padding: 10px; /* Adjusted padding */
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  transition: 0.2s ease;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.input-field:hover,
+.input-field:focus {
+  background: rgba(52, 152, 219, 1); /* Darker blue background on hover/focus */
+}
+.input-box {
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px; /* Adjusted left position */
+  color: #fff;
+}
+
+.input-box input {
+  padding-left: 40px; /* Increased padding to create space between icon and text */
+}
+
+/* Your existing styles... */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #fff;
+}
+
+/* Your existing styles... */
+
+#loginModal .input-box {
+  position: relative;
+  margin-bottom: 20px; /* Add margin between input boxes */
+}
+
+#loginModal .input-box input[type="submit"] {
+  margin-top: 10px;
+  margin-bottom: 20px; /* Add margin below the login button */
+  padding: 15px; /* Increased padding for a bigger button */
+  border: none;
+  border-radius: 8px; /* Increased border-radius for a rounded look */
+  background-color: #3498db; /* Blue color for the button */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#loginModal .input-box input[type="submit"]:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+/* Add this to your existing CSS styles... */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px; /* Decreased padding for a smaller size */
+  background-color: #007bff; /* Blue color, you can change it */
+  color: #fff;
+  border-top-left-radius: 10px; /* Adjusted border-radius for a sharper edge */
+  border-top-right-radius: 10px;
+}
+
+/* Your existing CSS styles */
+
+/* Add more styling as needed */
